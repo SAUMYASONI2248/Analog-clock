@@ -1,0 +1,69 @@
+
+
+#clock{
+    height: 350px;
+    width: 350px;
+    background: url('../img/clock.jpg') ;
+    background-size: cover;
+    position: relative;
+}
+
+/* #hr{
+    height: 90px ;
+    width:150px ;
+    background-color: red;
+    position: absolute;
+    top: -80px;
+    transition: 2s ease;
+
+
+}
+#hr:hover{
+    top: 0px;
+
+} */
+
+/* #hr{
+    height: 90px ;
+    width:150px ;
+    background-color: red;
+    position: sticky;
+    top: 0px;
+    
+} */
+
+#hr{
+    height: 90px ;
+    width: 3px ;
+    background-color: red;
+    position: absolute;
+    left: 175.2px;
+    top: 88px;
+    transform-origin: bottom;
+
+    
+}
+
+
+#min{
+    height: 120px ;
+    width: 2px ;
+    background-color: green;
+    position: absolute;
+    left: 175.8px;
+    top: 58px;
+    transform-origin: bottom;
+
+
+}
+
+#sec{
+    height: 150px ;
+    width: 1px;
+    background-color: black;
+    position: absolute;
+    left: 176.3px;
+    top: 28px;
+    transform-origin: bottom;
+
+}
